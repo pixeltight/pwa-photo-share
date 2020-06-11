@@ -1,0 +1,7 @@
+.idea
+node_modules
+*.bak
+functions/pwa-max-6421b-firebase.json
+public/src/js/feed.js
+public/src/js/feed.min.js
+*.mine

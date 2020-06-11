@@ -1,0 +1,142 @@
+[debug] [2020-03-30T21:02:38.638Z] ----------------------------------------------------------------------
+[debug] [2020-03-30T21:02:38.641Z] Command:       /Users/fork/.nvm/versions/node/v11.9.0/bin/node /Users/fork/.nvm/versions/node/v11.9.0/bin/firebase serve
+[debug] [2020-03-30T21:02:38.642Z] CLI Version:   7.0.2
+[debug] [2020-03-30T21:02:38.642Z] Platform:      darwin
+[debug] [2020-03-30T21:02:38.642Z] Node Version:  v11.9.0
+[debug] [2020-03-30T21:02:38.644Z] Time:          Mon Mar 30 2020 17:02:38 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-30T21:02:38.644Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-03-30T21:02:38.660Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-30T21:02:38.661Z] > authorizing via signed-in user
+[debug] [2020-03-30T21:02:38.661Z] [iam] checking project pwa-max-6421b for permissions ["firebase.projects.get"]
+[debug] [2020-03-30T21:02:38.663Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-30T21:02:38.663Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-30T21:02:38.912Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:02:38.930Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b:testIamPermissions  
+
+[debug] [2020-03-30T21:02:39.190Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:02:39.193Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b  
+ 
+[debug] [2020-03-30T21:02:39.496Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fork/max-udemy/pwa-max'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2020-03-30T21:02:39.513Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812/clients/_:getWebAppConfig  
+ 
+[debug] [2020-03-30T21:02:39.515Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812:getServerAppConfig  
+ 
+[debug] [2020-03-30T21:02:39.822Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2020-03-30T21:02:40.128Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/fork/max-udemy/pwa-max/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-30T21:02:40.736Z] Functions runtime initialized.
+[debug] [2020-03-30T21:02:40.737Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be version >8.0.0 so your version is too old. You can probably fix this by running "npm install firebase-admin@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-30T21:04:40.165Z] ----------------------------------------------------------------------
+[debug] [2020-03-30T21:04:40.168Z] Command:       /Users/fork/.nvm/versions/node/v11.9.0/bin/node /Users/fork/.nvm/versions/node/v11.9.0/bin/firebase serve
+[debug] [2020-03-30T21:04:40.169Z] CLI Version:   7.0.2
+[debug] [2020-03-30T21:04:40.169Z] Platform:      darwin
+[debug] [2020-03-30T21:04:40.169Z] Node Version:  v11.9.0
+[debug] [2020-03-30T21:04:40.170Z] Time:          Mon Mar 30 2020 17:04:40 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-30T21:04:40.170Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-03-30T21:04:40.185Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-30T21:04:40.186Z] > authorizing via signed-in user
+[debug] [2020-03-30T21:04:40.186Z] [iam] checking project pwa-max-6421b for permissions ["firebase.projects.get"]
+[debug] [2020-03-30T21:04:40.189Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b:testIamPermissions  
+
+[debug] [2020-03-30T21:04:40.573Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:04:40.576Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b  
+ 
+[debug] [2020-03-30T21:04:40.844Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fork/max-udemy/pwa-max'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2020-03-30T21:04:40.859Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812/clients/_:getWebAppConfig  
+ 
+[debug] [2020-03-30T21:04:40.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812:getServerAppConfig  
+ 
+[debug] [2020-03-30T21:04:41.060Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2020-03-30T21:04:41.219Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/fork/max-udemy/pwa-max/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-30T21:04:41.714Z] Functions runtime initialized.
+[debug] [2020-03-30T21:04:41.715Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-functions" to be version >3.0.0 so your version is too old. You can probably fix this by running "npm install firebase-functions@latest" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-03-30T21:05:54.374Z] ----------------------------------------------------------------------
+[debug] [2020-03-30T21:05:54.378Z] Command:       /Users/fork/.nvm/versions/node/v11.9.0/bin/node /Users/fork/.nvm/versions/node/v11.9.0/bin/firebase serve
+[debug] [2020-03-30T21:05:54.378Z] CLI Version:   7.0.2
+[debug] [2020-03-30T21:05:54.379Z] Platform:      darwin
+[debug] [2020-03-30T21:05:54.379Z] Node Version:  v11.9.0
+[debug] [2020-03-30T21:05:54.380Z] Time:          Mon Mar 30 2020 17:05:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-30T21:05:54.380Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-03-30T21:05:54.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-30T21:05:54.396Z] > authorizing via signed-in user
+[debug] [2020-03-30T21:05:54.396Z] [iam] checking project pwa-max-6421b for permissions ["firebase.projects.get"]
+[debug] [2020-03-30T21:05:54.399Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b:testIamPermissions  
+
+[debug] [2020-03-30T21:05:54.796Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:05:54.799Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b  
+ 
+[debug] [2020-03-30T21:05:55.052Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fork/max-udemy/pwa-max'...
+[info] 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "11"
+[debug] [2020-03-30T21:05:55.066Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812/clients/_:getWebAppConfig  
+ 
+[debug] [2020-03-30T21:05:55.068Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/930118847812:getServerAppConfig  
+ 
+[debug] [2020-03-30T21:05:55.269Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2020-03-30T21:05:55.410Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/fork/max-udemy/pwa-max/functions" for Cloud Functions...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-03-30T21:05:55.934Z] Functions runtime initialized.
+[debug] [2020-03-30T21:05:55.935Z] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true}
+[debug] [2020-03-30T21:05:56.087Z] firebase-admin has been stubbed.
+[warn] ⚠  TypeError: _onRequestWithOpts is not a function
+    at Object.httpsProvider._onRequestWithOpts (/Users/fork/.nvm/versions/node/v11.9.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:278:24)
+    at Object.httpsProvider.onRequest (/Users/fork/.nvm/versions/node/v11.9.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:283:34)
+    at Object.<anonymous> (/Users/fork/max-udemy/pwa-max/functions/index.js:27:41)
+    at Module._compile (internal/modules/cjs/loader.js:734:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:745:10)
+    at Module.load (internal/modules/cjs/loader.js:626:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:566:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:558:3)
+    at Module.require (internal/modules/cjs/loader.js:663:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-03-30T21:07:03.588Z] ----------------------------------------------------------------------
+[debug] [2020-03-30T21:07:03.591Z] Command:       /Users/fork/.nvm/versions/node/v11.9.0/bin/node /Users/fork/.nvm/versions/node/v11.9.0/bin/firebase deploy
+[debug] [2020-03-30T21:07:03.592Z] CLI Version:   7.0.2
+[debug] [2020-03-30T21:07:03.592Z] Platform:      darwin
+[debug] [2020-03-30T21:07:03.592Z] Node Version:  v11.9.0
+[debug] [2020-03-30T21:07:03.594Z] Time:          Mon Mar 30 2020 17:07:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-30T21:07:03.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-03-30T21:07:03.609Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-30T21:07:03.609Z] > authorizing via signed-in user
+[debug] [2020-03-30T21:07:03.610Z] [iam] checking project pwa-max-6421b for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-03-30T21:07:03.612Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwa-max-6421b:testIamPermissions  
+
+[debug] [2020-03-30T21:07:03.922Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:07:03.925Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pwa-max-6421b  
+ 
+[debug] [2020-03-30T21:07:04.263Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-30T21:07:06.950Z] TypeError: Cannot read property 'wanted' of undefined
+    at /Users/fork/.nvm/versions/node/v11.9.0/lib/node_modules/firebase-tools/lib/checkFirebaseSDKVersion.js:37:51
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[error] 
+[error] Error: An unexpected error has occurred.

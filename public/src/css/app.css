@@ -1,0 +1,51 @@
+.cta {
+  background: linear-gradient(to bottom left, #ee8e60, #ffdc88);
+  height: 17.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta h1 {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.page-content > h5 {
+  margin: 1.5rem auto;
+  font-size: 1.75rem;
+  display: block;
+  max-width: 25rem;
+  text-align: center;
+}
+
+.button, a.button, button, [type=submit], [type=reset], [type=button] {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 2px solid #eb7e49;
+  border-radius: 4px;
+  background: #eb7e49;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  text-transform: none;
+  padding: .75rem 1rem;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+
+.text-center {
+  text-align: center;
+}
+
+.drawer-option {
+  padding: 16px;
+}
+
+.enable-notifications {
+  display: none;
+}
